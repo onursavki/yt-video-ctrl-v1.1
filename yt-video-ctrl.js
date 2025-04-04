@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var noEntrySpan = document.createElement('span');
         noEntrySpan.className = 'noentry';
-        noEntrySpan.innerHTML = '❌'; // Insert the warning symbol
+        noEntrySpan.innerHTML = '⛔'; // Insert the warning symbol
         noEntrySpan.style.userSelect = 'none'; // Prevent emoji selection
 
         var messageText = document.createElement('p');
